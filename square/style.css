@@ -1,40 +1,24 @@
-#left{
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    top: 80%;
-    left: 45%;
-    transform: translate(-20%, -52%);
+/* #left{
+    
+    
 }
 #up{
-    width: 50px;
-    height: 25px;
-    position: fixed;
-    top: 78.9%;
-    left: 47.7%;
-    transform: translate(-20%, -60%);
+   
+    
 }
 #down{
-    width: 50px;
-    height: 25px;
-    position: fixed;
-    top: 81.5%;
-    left: 47.7%;
-    transform: translate(-20%, -60%);
+   
+    
 }
 #right{
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    top: 79.9%;
-    left: 50.4%;
-    transform: translate(-20%, -49%);
-}
+    
+    
+} */
 .square{
     height: 25px;
     width: 25px;
     background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    transition-duration: 0.1s;
+    transition-property: transform;
 }
