@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="a1"">
+            <div class="label">Konstruktory</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="Konstruktory1.png" alt="">
+                </div>
+                W tym przykładzie stworzyliśmy klasę Circle, która posiada trzy konstruktory: domyślny,
+                z jednym parametrem i z dwoma parametrami. Klasa ta również zawiera metodę getArea,
+                która oblicza pole powierzchni koła na podstawie promienia.
+                <div class="KonstruktorZdj">
+                    <hr style="margin: 25px;">
+                    <img src="Konstruktory2.png" alt="">
+                </div>
+                <p>W klasie Main tworzymy trzy obiekty typu Circle za pomocą różnych konstruktorów i wyświetlamy pole powierzchni dla każdego z nich.</p>
+            </div>
+        </div>
+        <div class="a1"">
+            <div class="label">Enkapsulacja</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="hermetyzacja.png" alt="">
+                </div>
+                Hermetyzacja to mechanizm, który ogranicza dostęp do pól i metod obiektu tylko do kodu znajdującego się wewnątrz tej samej klasy lub obiektu.
+                W powyższym przykładzie, pola firstName i lastName są prywatne i dostępne tylko za pośrednictwem metod getterów getFirstName() i getLastName().
+
+                W ten sposób, możemy zapewnić, że dane obiektu są bezpiecznie przechowywane i nie mogą być zmodyfikowane przez inny kod poza klasą User.
+                Jest to szczególnie ważne, gdy chcemy zapewnić integralność danych w naszej aplikacji.
+            </div>
+        </div>
+        <div class="a1"">
+            <div class="label">Metody publiczne</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="MetodaPub.png" alt="">
+                </div>
+                W powyższym kodzie stworzyliśmy klasę Animal, która zawiera dwa prywatne pola: name i age.
+                Następnie utworzyliśmy metody publiczne setName, getName, setAge i getAge, które umożliwiają odczytanie i zapisanie wartości tych pól.
+                W metodzie main tworzymy obiekt klasy Animal i używamy tych metod, aby ustawić i pobrać nazwę i wiek zwierzęcia.
+            </div>
+        </div>
+        <div class="a1"">
+            <div class="label">Metody prywatne</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="MetodaPriv.png" alt="">
+                </div>
+                W języku Java metoda prywatna jest dostępna tylko w obrębie klasy, w której została zdefiniowana.
+                 Oznacza to, że nie można jej używać ani nadpisywać w klasach pochodnych. Oto przykład kodu z wykorzystaniem metody prywatnej w języku Java:
+
+                 W powyższym przykładzie klasa MyClass posiada prywatną metodę getNumber(), która zwraca wartość zmiennej number.
+                  Klasa ta posiada również metodę publiczną printNumber(), która wywołuje metodę prywatną getNumber() i wyświetla jej wartość na ekranie.
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">Autor: Michał Zuterek</div>
+    <script src="script.js"></script>
+</body>
+</html>
