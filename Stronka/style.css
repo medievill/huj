@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F3EFE0;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.container .a1{
+    position: relative;
+    margin: 10px 20px;
+}
+
+.container .a1 .label{
+    position: relative;
+    padding: 10px;
+    background: #434242;
+    cursor: pointer;
+}
+
+.container .a1 .label::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font: 1.5em;
+}
+
+.container .a1.active .label::before{
+    content: "-";
+}
+
+.container .a1 .content{
+    position: relative;
+    padding: 10px;
+    background: gray;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+img{
+    border-radius: 2.5%;
+}
+.container .a1.active .content{
+    height: 100%;
+    padding: 10px;
+
+}
+
+.content .KonstruktorZdj {
+    float: left;
+    padding-right: 5%;
+}
+
+#p1{
+    float: right;
+}
+
+.footer{
+    color: black
+}
+
+b {
+    color: #FF6E31;
+}
+
+
+

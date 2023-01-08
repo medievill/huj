@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="a1"">
+            <div class="label">Konstruktory</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="Konstruktory1.png" alt="">
+                </div>
+                W tym przykładzie stworzyliśmy klasę <b>Circle</b>, która posiada trzy konstruktory: domyślny,
+                    z jednym parametrem i z dwoma parametrami. Klasa ta również zawiera metodę <b>getArea</b>,
+                    która oblicza pole powierzchni koła na podstawie promienia.
+                <div class="KonstruktorZdj">
+                    <hr style="margin: 25px;">
+                    <img src="Konstruktory2.png" alt="">
+                </div>
+                <p id="p1">W klasie <b>Main</b> tworzymy trzy obiekty typu <b>Circle</b> za pomocą różnych konstruktorów i wyświetlamy pole powierzchni dla każdego z nich.</p>
+            </div>
+        </div>
+        <div class="a1"">
+            <div class="label">Enkapsulacja</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="hermetyzacja.png" alt="">
+                </div>
+                <b>Hermetyzacja</b> to mechanizm, który ogranicza dostęp do pól i metod obiektu tylko do kodu znajdującego się wewnątrz tej samej klasy lub obiektu.
+                W kodzie po lewej stronie, pola <b>firstName</b> i <b>lastName</b> są prywatne i dostępne tylko za pośrednictwem metod getterów <b>getFirstName</b>() i <b>getLastName</b>().
+
+                W ten sposób, możemy zapewnić, że dane obiektu są bezpiecznie przechowywane i nie mogą być zmodyfikowane przez inny kod poza klasą <b>User</b>.
+                Jest to szczególnie ważne, gdy chcemy zapewnić integralność danych w naszej aplikacji.
+            </div>
+        </div>
+        <div class="a1"">
+            <div class="label">Metody publiczne</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="MetodaPub.png" alt="">
+                </div>
+                W kodzie po lewej, stworzyliśmy klasę <b>Animal</b>, która zawiera dwa prywatne pola: <b>name</b> i <b>age</b>.
+                Następnie utworzyliśmy metody publiczne <b>setName</b>, <b>getName</b>, <b>setAge</b> i <b>getAge</b>, które umożliwiają odczytanie i zapisanie wartości tych pól.
+                W metodzie main tworzymy obiekt klasy <b>Animal</b> i używamy tych metod, aby ustawić i pobrać nazwę i wiek zwierzęcia.
+            </div>
+        </div>
+        <div class="a1"">
+            <div class="label">Metody prywatne</div>
+            <div class="content">
+                <div class="KonstruktorZdj">
+                    <img src="MetodaPriv.png" alt="">
+                </div>
+                W języku Java metoda prywatna jest <b>dostępna tylko w obrębie klasy</b>, w której została zdefiniowana.
+                 Oznacza to, że <b>nie można</b> jej używać ani nadpisywać w klasach pochodnych. 
+
+                 W kodzie po lewej stornie klasa <b>MyClass</b> posiada prywatną metodę <b>getNumber</b>(), która zwraca wartość zmiennej number.
+                  Klasa ta posiada również metodę publiczną <b>printNumber</b>(), która wywołuje metodę prywatną <b>getNumber</b>() i wyświetla jej wartość na ekranie.
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">Autor: <b>Michał Zuterek</b></div>
+    <script src="script.js"></script>
+</body>
+</html>
